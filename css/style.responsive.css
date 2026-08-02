@@ -1,14 +1,94 @@
 /* 350 */
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+
+    /*& Header Section */
+    /*& part-1 */
+    header .carousel-item:nth-child(1).active .carousel-caption p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /*^ carousel-control buttons */
+    header #carouselExampleCaptions .buttons {
+        bottom: 15px;
+        right: 30px;
+        width: 80px;
+    }
+
+    header #carouselExampleCaptions .buttons .carousel-control-next,
+    header #carouselExampleCaptions .buttons .carousel-control-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*& part-2 */
+    header .carousel-item:nth-child(2) .part-1 .image {
+        width: 150px;
+    }
+
+    header .carousel-item:nth-child(2) .part-1 h2 {
+        font-size: 60px;
+    }
+
+    header .carousel-item:nth-child(2) .part-1 p {
+        font-size: 12px;
+    }
+
+    header .carousel-item:nth-child(2) .part-1 .text .phone-number {
+        font-size: 20px;
+    }
+
+    header .carousel-item:nth-child(2) .part-2 img {
+        display: none;
+    }
+
+}
 
 /* 450 */
-@media (min-width: 371px) and (max-width: 1300px) {}
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    /*& Header Section */
+    /*& part-1 */
+    header .carousel-item:nth-child(1).active .carousel-caption p {
+        width: 90%;
+    }
+
+    header .carousel-item:nth-child(2) .part-1 p {
+        font-size: 14px;
+    }
+}
 
 /* 650 */
-@media (min-width: 577px) and (max-width: 1300px) {}
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    /*& Header Section */
+    /*& part-1 */
+    header .carousel-item:nth-child(1).active .carousel-caption p {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    /*^ carousel-control buttons */
+    header #carouselExampleCaptions .buttons {
+        bottom: 15px;
+        right: 30px;
+        width: 100px;
+    }
+
+    header #carouselExampleCaptions .buttons .carousel-control-next,
+    header #carouselExampleCaptions .buttons .carousel-control-prev {
+        width: 40px;
+        height: 40px;
+    }
+}
 
 /* 850 */
-@media (min-width: 769px) and (max-width: 1300px) {}
+@media (min-width: 769px) and (max-width: 1300px) {
+    header .carousel-item:nth-child(2) .part-2 img {
+        display: block;
+    }
+
+}
 
 /* 1050 */
 @media (min-width: 992px) and (max-width: 1300px) {}
