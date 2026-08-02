@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #F1B601;
+    --paragraph-color: #7A878B;
+    --main-gradient: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    --secondary-gradient: radial-gradient(#2c5364, #203a43, #0f2027);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--main-gradient);
+    color: #fff;
+    height: 5000px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dancing Script", cursive;
+}
+
+.heading-2 {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
