@@ -2,6 +2,11 @@
 @media (max-width: 1300px) {
 
     /*& Header Section */
+    /*^ navbar */
+    .offcanvas.offcanvas-start {
+        width: 280px;
+    }
+
     /*& part-1 */
     header .carousel-item:nth-child(1).active .carousel-caption p {
         width: 100%;
@@ -100,6 +105,12 @@
 
 /* 850 */
 @media (min-width: 769px) and (max-width: 1300px) {
+
+    /*^ navbar */
+    .offcanvas.offcanvas-start {
+        width: 300px;
+    }
+
     header .carousel-item:nth-child(2) .part-2 img {
         display: block;
     }
@@ -111,7 +122,13 @@
 }
 
 /* 1050 */
-@media (min-width: 992px) and (max-width: 1300px) {}
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    /*^ navbar */
+    .offcanvas.offcanvas-start {
+        width: 400px;
+    }
+}
 
 /* 1250 */
 @media (min-width: 1181px) and (max-width: 1300px) {}
