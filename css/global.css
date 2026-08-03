@@ -17,9 +17,10 @@ body {
 body::-webkit-scrollbar {
     width: 16px;
     background: #0f2027;
-    background: -webkit-linear-gradient(to right,#2c5364,#203a43,#0f2027);
-    background: linear-gradient(to right,#2c5364,#203a43,#0f2027)
+    background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027)
 }
+
 body::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
     border-radius: 15px;
@@ -49,6 +50,10 @@ a {
 
 li {
     list-style: none;
+}
+
+section {
+    padding: 25px 0;
 }
 
 .button {
@@ -104,4 +109,33 @@ li {
     margin: 20px 0;
     opacity: 1;
     color: var(--primary-color);
+}
+
+.title h5 {
+    color: var(--primary-color);
+}
+
+.title .image {
+    position: relative;
+    width: fit-content;
+}
+
+.title .image::before,
+.title .image::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.title .image::before {
+    left: 110%;
+}
+
+.title .image::after {
+    right: 110%;
 }
