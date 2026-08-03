@@ -63,11 +63,15 @@ nav .part-2 .offcanvas {
     border: none;
 }
 
-nav .part-2 .offcanvas .offcanvas-header i {
+nav .part-2 .offcanvas .offcanvas-header button {
     transition-duration: .5s;
 }
+nav .part-2 .offcanvas .offcanvas-header button:focus{
+    box-shadow: none;
+    opacity: 1;
+}
 
-nav .part-2 .offcanvas .offcanvas-header i:hover {
+nav .part-2 .offcanvas .offcanvas-header button:hover {
     transform: rotate(180deg);
 }
 
