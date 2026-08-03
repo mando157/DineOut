@@ -62,6 +62,10 @@
         font-size: 14px;
     }
 
+    #About .part-2 .content {
+        height: 200px;
+    }
+
 }
 
 /* 450 */
@@ -129,6 +133,11 @@
 
     header .carousel-item:nth-child(3) .part-1 img {
         display: block;
+    }
+
+    /*& About section */
+    #About .part-2 .content {
+        height: 300px;
     }
 
 }
