@@ -31,9 +31,67 @@
 <body>
 
     <!--*------ Header Section ------*-->
-    <header>
-        <!-- data-bs-ride="carousel" -->
-        <div id="carouselExampleCaptions" class="carousel slide">
+    <header class="position-relative" id="Home">
+        <!--*------ Navbar Section ------*-->
+        <nav>
+            <div class="container d-flex justify-content-between">
+                <div class="part-1">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div class="part-2">
+
+                    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+
+                        <div class="offcanvas-header d-flex justify-content-between p-4 w-100">
+                            <img src="./images/logo.png" alt="logo" class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <i class="fas fa-times text-light fs-5" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="link active" href="#Home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" href="#About">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" href="#Testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" href="#Menu">Our Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" href="#Team">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" href="#Order">Order Now</a>
+                                </li>
+                                <li class="nav-item social-media">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="icon fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="icon fab fa-whatsapp"></i></a></li>
+                                        <li><a href="#"><i class="icon fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span></span>
+                        <span class="s2"></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
 
                 <div class="carousel-item h-100 active">
@@ -59,7 +117,7 @@
                                     <img src="./images/pizza.png" class="img-fluid" alt="pizza">
                                 </div>
                                 <h2 class="heading-2 d-flex flex-column m-0">
-                                    <span>BUY GET</span> 
+                                    <span>BUY GET</span>
                                     <span>ONE FREE</span>
                                 </h2>
                                 <hr class="hr">
@@ -82,13 +140,14 @@
                 </div>
 
                 <div class="carousel-item h-100">
-                    <div class="container position-relative h-100 z-3">
+                    <div class="container h-100 position-relative z-3">
                         <div class="row h-100">
-                            <div class="part-1 col-lg-6">
+                            <div class="part-1 col-md-6 col-lg-6 d-flex justify-content-center">
                                 <img src="./images/bg.png" class="img-fluid" alt="pizza">
                             </div>
-                            <div class="part-2 col-lg-6 m-auto">
-                                <h2 class="heading-2 display-5 fw-bolder">ENJOY BURGER MAKE YOUR TUMMY HAPPY</h2>
+                            <div
+                                class="part-2 col-sm-10 col-md-6 col-lg-6 d-flex flex-column justify-content-center mx-auto">
+                                <h2 class="heading-2 display-6 fw-bolder mb-0">ENJOY BURGER MAKE YOUR TUMMY HAPPY</h2>
                                 <hr class="hr">
                                 <p class="fw-light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                                     commodo ligula eget
@@ -113,7 +172,6 @@
                                     <span>Our Menu</span>
                                 </a>
                             </div>
-
                         </div>
                     </div>
                 </div>

@@ -42,6 +42,15 @@
         display: none;
     }
 
+    /*& part-3 */
+    header .carousel-item:nth-child(3) .part-1 {
+        display: none;
+    }
+
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 12px;
+    }
+
 }
 
 /* 450 */
@@ -68,6 +77,12 @@
         font-size: 16px;
     }
 
+    /*& part-3 */
+
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 16px;
+    }
+
     /*^ carousel-control buttons */
     header #carouselExampleCaptions .buttons {
         bottom: 15px;
@@ -80,11 +95,16 @@
         width: 40px;
         height: 40px;
     }
+
 }
 
 /* 850 */
 @media (min-width: 769px) and (max-width: 1300px) {
     header .carousel-item:nth-child(2) .part-2 img {
+        display: block;
+    }
+
+    header .carousel-item:nth-child(3) .part-1 {
         display: block;
     }
 
