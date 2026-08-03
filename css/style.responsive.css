@@ -48,7 +48,7 @@
     }
 
     /*& part-3 */
-    header .carousel-item:nth-child(3) .part-1 {
+    header .carousel-item:nth-child(3) .part-1 img {
         display: none;
     }
 
@@ -115,7 +115,7 @@
         display: block;
     }
 
-    header .carousel-item:nth-child(3) .part-1 {
+    header .carousel-item:nth-child(3) .part-1 img{
         display: block;
     }
 
