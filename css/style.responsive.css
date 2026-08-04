@@ -66,6 +66,30 @@
         height: 200px;
     }
 
+
+    /*& Services Section */
+    #Services {
+        background-image: url("../images/video_image-min.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Services video {
+        display: none;
+    }
+
+    #Services .text p {
+        font-size: 12px;
+    }
+
+    #Services .content .box {
+        max-width: 300px;
+    }
+
+    #Services .content .box:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
 }
 
 /* 450 */
@@ -117,6 +141,11 @@
         font-size: 16px;
     }
 
+    /*& Services Section */
+    #Services .text p {
+        font-size: 14px;
+    }
+
 }
 
 /* 850 */
@@ -138,6 +167,23 @@
     /*& About section */
     #About .part-2 .content {
         height: 300px;
+    }
+
+    /*& Services Section */
+    #Services {
+        background-image: none;
+    }
+
+    #Services video {
+        display: block;
+    }
+
+        #Services .text p {
+        font-size: 16px;
+    }
+
+    #Services .content .box:not(:last-child) {
+        margin-bottom: 0px;
     }
 
 }
