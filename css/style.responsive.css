@@ -90,6 +90,45 @@
         margin-bottom: 30px;
     }
 
+    /*& Menu Section */
+    #Menu .main-menu {
+        flex-direction: column;
+    }
+
+    #Menu .main-menu .nav {
+        width: 100%;
+    }
+
+    #Menu .main-menu .nav .boxes {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #Menu .nav button {
+        border-top: 1px solid #fff;
+        padding: 20px 10px;
+    }
+
+    #Menu .nav button::before {
+        right: 50%;
+        top: initial;
+        bottom: 0;
+        transform: translateX(50%) translateY(120%) rotate(45deg);
+    }
+
+    #Menu .nav button.active::before {
+        transform: translateX(50%) translateY(50%) rotate(45deg);
+    }
+
+    #Menu .nav button:first-child {
+        border-top: 1px solid #fff;
+        border-radius: 5px 0 0 5px;
+    }
+
+    #Menu .nav button:last-child {
+        border-radius: 0 5px 5px 0px;
+    }
+
 }
 
 /* 450 */
@@ -178,12 +217,17 @@
         display: block;
     }
 
-        #Services .text p {
+    #Services .text p {
         font-size: 16px;
     }
 
     #Services .content .box:not(:last-child) {
         margin-bottom: 0px;
+    }
+
+    /*& Menu Section */
+    #Menu .main-menu .nav .boxes {
+        justify-content: center;
     }
 
 }
@@ -194,6 +238,43 @@
     /*^ navbar */
     .offcanvas.offcanvas-start {
         width: 400px;
+    }
+
+    /*& Menu Section */
+    #Menu .main-menu {
+        flex-direction: row;
+    }
+
+    #Menu .main-menu .nav .boxes {
+        flex-direction: column;
+    }
+
+    #Menu .main-menu .nav {
+        width: initial;
+    }
+
+    #Menu .nav button::before {
+        right: 0%;
+        top: 50%;
+        bottom: initial;
+        transform: translateX(120%) translateY(-50%) rotate(45deg);
+    }
+
+    #Menu .nav button.active::before {
+        transform: translateX(50%) translateY(-50%) rotate(45deg);
+    }
+
+    #Menu .nav button:first-child {
+        border-top: 1px solid #fff;
+        border-radius: 5px 5px 0 0;
+    }
+
+    #Menu .nav button:last-child {
+        border-radius: 0 0 5px 5px;
+    }
+
+    #Menu .tab-content .tab-pane .box .item .part-2 .icons i {
+        font-size: 12px;
     }
 }
 
