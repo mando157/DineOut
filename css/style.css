@@ -550,7 +550,7 @@ header #carouselExampleCaptions .buttons .carousel-control-prev:hover i {
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
-    padding: 30px 10px;
+    padding: 20px 10px;
     width: 120px;
     min-width: 100px;
     overflow: hidden;
@@ -700,4 +700,51 @@ header #carouselExampleCaptions .buttons .carousel-control-prev:hover i {
 
 #Menu .tab-content .tab-pane .box .item .part-2 span sup {
     color: var(--primary-color);
+}
+
+/*& Team Section */
+#Team .container .content .chef {
+    position: relative;
+    width: 95%;
+}
+
+#Team .container .content .chef img {
+    border-radius: 10px;
+    width: 100%;
+    transition-duration: .5s;
+}
+
+#Team .container .content .chef:hover img {
+    transform: skewY(5deg);
+}
+
+#Team .container .content .chef .text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 95%;
+    background: var(--main-gradient);
+    border-radius: 10px;
+    padding: 10px 15px;
+    z-index: 3;
+    transition-duration: .5s;
+}
+
+#Team .container .content .chef:hover .text {
+    transform: translate(-50%, -20%);
+    background: var(--primary-color);
+}
+
+#Team .container .content .chef .text h4 {
+    transition-duration: .5s;
+    color: var(--primary-color);
+}
+#Team .container .content .chef .text h6{
+    color: rgba(255, 255, 255 , .5);
+    transition-duration: .5s;
+}
+#Team .container .content .chef:hover .text h4,
+#Team .container .content .chef:hover .text h6 {
+    color: #fff;
 }
