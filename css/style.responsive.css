@@ -137,6 +137,20 @@
         margin-bottom: 70px;
     }
 
+    /*& Contact Us Section */
+    #Contact .part-1 form {
+        width: 90%;
+    }
+
+    #Contact .part-2 {
+        display: none;
+    }
+
+    /*& Footer Section */
+    footer p {
+        font-size: 12px;
+    }
+
 }
 
 /* 450 */
@@ -193,6 +207,11 @@
         font-size: 14px;
     }
 
+    /*& Footer Section */
+    footer p {
+        font-size: 14px;
+    }
+
 }
 
 /* 850 */
@@ -239,12 +258,25 @@
     }
 
     /*& Team Section */
-    #Team .container .content .chef{
+    #Team .container .content .chef {
         width: initial;
     }
 
     #Team .container .content:not(:last-child) {
         margin-bottom: 0px;
+    }
+
+    /*& Contact Us Section */
+    #Contact .part-1 form {
+        width: 90%;
+    }
+
+    #Contact .part-2 {
+        display: flex;
+    }
+
+    #Contact .part-2 img {
+        width: 100%;
     }
 
 }
@@ -292,6 +324,11 @@
 
     #Menu .tab-content .tab-pane .box .item .part-2 .icons i {
         font-size: 12px;
+    }
+
+    /*& Footer Section */
+    footer p {
+        font-size: initial;
     }
 }
 

@@ -740,11 +740,81 @@ header #carouselExampleCaptions .buttons .carousel-control-prev:hover i {
     transition-duration: .5s;
     color: var(--primary-color);
 }
-#Team .container .content .chef .text h6{
-    color: rgba(255, 255, 255 , .5);
+
+#Team .container .content .chef .text h6 {
+    color: rgba(255, 255, 255, .5);
     transition-duration: .5s;
 }
+
 #Team .container .content .chef:hover .text h4,
 #Team .container .content .chef:hover .text h6 {
     color: #fff;
+}
+
+/*& Contact Us Section */
+#Contact {
+    background-image: url("../images/bg_wood.jpg");
+}
+
+#Contact .part-1 form {
+    background-image: url("../images/chef-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333333;
+    border-radius: 10px;
+    width: 75%;
+}
+
+#Contact .part-1 form h2 {
+    color: var(--primary-color);
+}
+
+#Contact .part-1 form .input-group:last-child {
+    width: 100%;
+}
+
+#Contact .part-1 form .input-group .input-group-text {
+    background-color: #fff;
+}
+
+#Contact .part-1 form .input-group input:focus,
+#Contact .part-1 form .input-group textarea:focus-visible {
+    box-shadow: none;
+    border-color: #fff;
+    outline: none;
+}
+
+#Contact .part-1 form .input-group textarea,
+#Contact .part-1 form .input-group input:first-child,
+#Contact .part-1 form .input-group input:last-child {
+    border-left: none;
+}
+
+#Contact .part-1 form .input-group textarea {
+    resize: none;
+    width: calc(100% - 46px);
+    border-radius: 0 6px 6px 0;
+    height: 130px;
+    border: 1px solid #fff;
+}
+
+#Contact .part-1 form button {
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+#Contact .part-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact .part-2 img {
+    animation: delivery 2s linear infinite;
+}
+
+/*& Footer Section */
+footer {
+    background-color: #333;
+    letter-spacing: 1.5px;
 }
