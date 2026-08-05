@@ -172,10 +172,6 @@ header .carousel-item .carousel-caption {
 
 /*& part-1 */
 header .carousel-item:nth-child(1) {
-    background: url(../images//home-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100svh;
 }
 
@@ -204,16 +200,21 @@ header .carousel-item:nth-child(1).active .carousel-caption a {
     transition-delay: .4s;
 }
 
-header .carousel-item:nth-child(1) img {
+header .carousel-item:nth-child(1) .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/home-bg.jpg");
+    background-position: center;
+    background-size: cover;
     transition-duration: var(--transition-duration);
+    z-index: 0;
 }
 
-header .carousel-item:nth-child(1).active img {
+header .carousel-item:nth-child(1).active .back {
     transform: scale(1.1);
-}
-
-header .carousel-item:nth-child(2) img {
-    width: 105%;
 }
 
 /*& part-2 */

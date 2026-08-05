@@ -177,12 +177,6 @@
         font-size: 16px;
     }
 
-    /*& part-3 */
-
-    header .carousel-item:nth-child(3) .part-2 p {
-        font-size: 16px;
-    }
-
     /*^ carousel-control buttons */
     header #carouselExampleCaptions .buttons {
         bottom: 15px;
@@ -228,6 +222,15 @@
 
     header .carousel-item:nth-child(3) .part-1 img {
         display: block;
+    }
+
+    /*& part-3 */
+    header .carousel-item:nth-child(3) .part-2 h2 {
+        font-size: 20px;
+    }
+
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 12px;
     }
 
     /*& About section */
@@ -287,6 +290,16 @@
     /*^ navbar */
     .offcanvas.offcanvas-start {
         width: 400px;
+    }
+
+    /*& header */
+    /*& part-3 */
+    header .carousel-item:nth-child(3) .part-2 h2 {
+        font-size: 30px;
+    }
+
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 14px;
     }
 
     /*& Menu Section */
