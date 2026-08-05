@@ -817,4 +817,5 @@ header #carouselExampleCaptions .buttons .carousel-control-prev:hover i {
 footer {
     background-color: #333;
     letter-spacing: 1.5px;
+    border-top: 2px solid #2F2B63;
 }
